@@ -12,17 +12,14 @@ You can use the following users to test the application:
 
 1. Email: shreya@test.com  
    Password: 54321  
-
 2. Email: user@test.com  
    Password: 11111  
-
 3. Email: adarsh@test.com  
    Password: 12345  
 
 Each user has existing posts and can interact with other users.
 
 ---
-
 ## Tech Stack Used
 
 ### Frontend
@@ -79,30 +76,24 @@ Each user has existing posts and can interact with other users.
 ## How to Run the Project Locally
 
 ### 1. Backend Setup
-
-```bash
 cd backend
 npm install
 npm start
 Backend runs on:
-
-Copy code
 http://localhost:3000
 Make sure MongoDB is running locally.
 
-2. Frontend Setup
-bash
-Copy code
+### **2. Frontend Setup**
 cd frontend
 npm install
 npm run dev
 Frontend runs on:
-
-Copy code
 http://localhost:5173
+Signup Page:
+http://localhost:5173/signUp
 
-Project Structure (Simplified)
-Copy code
+### **Project Structure**
+
 instaClone/
 │
 ├── backend/
@@ -118,11 +109,13 @@ instaClone/
 │   └── App.jsx
 │
 └── README.md
-Notes
+### **Notes**
 The UI is designed mobile-first.
-
 MongoDB automatically creates the database on first insert.
-
 Images are stored locally using Multer.
-
 This project focuses on backend logic, database relations, and API integration.
+
+**Mobile View** 
+1.Inspect Website 
+2.Click -Toggle Device ToolBar
+3.Fix Dimensions-320*642
