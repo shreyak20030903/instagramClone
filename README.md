@@ -90,7 +90,7 @@ Copy code
 http://localhost:3000
 Make sure MongoDB is running locally.
 
-### 2. Frontend Setup
+2. Frontend Setup
 bash
 Copy code
 cd frontend
@@ -100,7 +100,8 @@ Frontend runs on:
 
 Copy code
 http://localhost:5173
-### Project Structure (Simplified)
+
+Project Structure (Simplified)
 Copy code
 instaClone/
 │
